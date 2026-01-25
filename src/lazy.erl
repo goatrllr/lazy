@@ -26,6 +26,7 @@
 -export([filter/2]).
 -export([filtermap/2]).
 -export([flush/1]).
+-export([foreach/2]).
 -export([foldl/3]).
 -export([foldr/3]).
 -export([from_list/1]).
@@ -558,6 +559,12 @@ foldl1(_, Acc, empty) ->
 	Acc;
 foldl1(F, Acc, {V, G1}) ->
 	foldl1(F, F(V, Acc), next(G1)).
+
+%% @doc Applies a function for each value in the generator, discarding results.
+-spec foreach(fun((V) -> any()), generator(V)) -> ok when V :: term().
+foreach(Fun, Generator) when is_function(Fun, 1), ?is_generator(Generator) ->
+	_ = foldl(fun(V, ok) -> Fun(V), ok end, ok, Generator),
+	ok.
 
 %% @doc Folds over the sequence the given generator produces from the right.
 %%
