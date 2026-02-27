@@ -118,9 +118,9 @@ lazy:foreach(fun (X) -> process_item(X) end, Gen).
 
 ## Documentation
 
-- **[API_Documentation.md](docs/API_Documentation.md)** — Complete function reference, types, and modules
-- **[Developer_Reference.md](docs/Developer_Reference.md)** — Design rationale, architecture, testing, extensions
-- **[Examples_&_Use_Cases.md](docs/Examples_&_Use_Cases.md)** — Key patterns and real-world code examples
+- **[API_Documentation.md](docs/API_Documentation_lazy.md)** — Complete function reference, types, and modules
+- **[Developer_Reference.md](docs/Developer_Reference_lazy.md)** — Design rationale, architecture, testing, extensions
+- **[Examples_&_Use_Cases.md](docs/Examples_&_Use_Cases_lazy.md)** — Key patterns and real-world code examples
 
 ---
 
