@@ -613,8 +613,8 @@ Result = lazy:to_list(Gen3).  % Materialize once: ~500k items
 
 ## See Also
 
-- [API_Documentation.md](API_Documentation.md) — Function reference
-- [Developer_Reference.md](Developer_Reference.md) — Design and architecture
+- [API_Documentation_lazy.md](API_Documentation_lazy.md) — Function reference
+- [Developer_Reference_lazy.md](Developer_Reference_lazy.md) — Design and architecture
 - [README.md](../README.md) — Quick start guide
 
 ---

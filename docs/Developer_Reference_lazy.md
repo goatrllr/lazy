@@ -126,9 +126,9 @@ lazy/
 │   └── ...
 ├── README.md                 # Quick start guide
 ├── docs/
-│   ├── API_Documentation.md  # Function reference
-│   ├── Developer_Reference.md # This file
-│   └── Examples_&_Use_Cases.md # Code examples
+│   ├── API_Documentation_lazy.md  # Function reference
+│   ├── Developer_Reference_lazy.md # This file
+│   └── Examples_&_Use_Cases_lazy.md # Code examples
 └── Makefile                  # Build configuration
 ```
 
@@ -408,7 +408,7 @@ lazy:to_list(Gen2).  % [13, 21, 34, 55, 89]
 
 ## Function Reference
 
-See [API_Documentation.md](API_Documentation.md) for complete function descriptions, type signatures, and examples.
+See [API_Documentation_lazy.md](API_Documentation_lazy.md) for complete function descriptions, type signatures, and examples.
 
 ### Quick Index by Category
 
@@ -428,8 +428,8 @@ See [API_Documentation.md](API_Documentation.md) for complete function descripti
 
 ## See Also
 
-- [API_Documentation.md](API_Documentation.md) — Complete function reference
-- [Examples_&_Use_Cases.md](Examples_&_Use_Cases.md) — Code examples and patterns
+- [API_Documentation_lazy.md](API_Documentation_lazy.md) — Complete function reference
+- [Examples_&_Use_Cases_lazy.md](Examples_&_Use_Cases_lazy.md) — Code examples and patterns
 - [README.md](../README.md) — Quick start guide
 
 ---

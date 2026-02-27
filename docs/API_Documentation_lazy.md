@@ -1081,8 +1081,8 @@ Counts the number of values in a finite generator.
 
 ## See Also
 
-- [Examples_&_Use_Cases.md](Examples_&_Use_Cases.md) — Code examples and patterns
-- [Developer_Reference.md](Developer_Reference.md) — Design and architecture
+- [Examples_&_Use_Cases_lazy.md](Examples_&_Use_Cases_lazy.md) — Code examples and patterns
+- [Developer_Reference_lazy.md](Developer_Reference_lazy.md) — Design and architecture
 
 ---
 
